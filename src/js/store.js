@@ -48,7 +48,7 @@ export default class Store{
 
 		let index = 0;
 
-		items.map( ( item ) => {
+		items.forEach( ( item ) => {
 			if ( item.id === Number( parents[ index ] ) ) {
 				item.conditionType = '';
 				item.conditionValue = '';
